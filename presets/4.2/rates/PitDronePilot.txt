@@ -1,0 +1,44 @@
+#$ TITLE: PitDronePilot rates
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rates, freestyle
+#$ AUTHOR: Piotr Stępniewski
+#$ INCLUDE: presets/4.2/rates/defaults.txt
+
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 50
+set pitch_rc_rate = 50
+set yaw_rc_rate = 50
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60
+
+#$ OPTION BEGIN (UNCHECKED): Low
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 70
+set pitch_rc_rate = 70
+set yaw_rc_rate = 70
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 10
+set pitch_srate = 10
+set yaw_srate = 10
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): High
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 65
+set pitch_rc_rate = 65
+set yaw_rc_rate = 65
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 65
+#$ OPTION END
